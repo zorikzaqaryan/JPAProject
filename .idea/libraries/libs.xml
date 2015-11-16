@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm-attrs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/c3p0-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cglib-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ejb3-persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hibernate-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hibernate-entitymanager.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hibernate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hsqldb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jboss-archive-browsing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.0.6-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

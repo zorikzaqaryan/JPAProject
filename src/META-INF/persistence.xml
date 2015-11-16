@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+						http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<persistence-unit name="JPAConfig">
+	    
+	    <class>am.gitc.jpa.data.Person</class>
+	    <class>am.gitc.jpa.data.PersonToken</class>
+
+		<properties>
+
+			<property name="hibernate.archive.autodetection" value="class" />
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/jpa" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			
+			<property name="hibernate.c3p0.min_size" value="5" />
+			<property name="hibernate.c3p0.max_size" value="20" />
+			<property name="hibernate.c3p0.timeout" value="300" />
+			<property name="hibernate.c3p0.max_statements" value="50" />
+			<property name="hibernate.c3p0.idle_test_period" value="900" />
+
+			<property name="hibernate.show_sql" value="true" />
+			<property name="useUnicode" value="true" />
+			<property name="characterEncoding" value="UTF-8" />
+
+		</properties>
+		
+	</persistence-unit>
+</persistence>
+
+<!-- 	
+	2. hibernate.c3p0.max_size
+	Maximum number of JDBC connections in the pool. Hibernate default: 100
+	
+	3. hibernate.c3p0.timeout
+	When an idle connection is removed from the pool (in second). Hibernate default: 0, never expire.
+	
+	4. hibernate.c3p0.max_statements
+	Number of prepared statements will be cached. Increase performance. Hibernate default: 0 , caching is disable.
+	
+	5. hibernate.c3p0.idle_test_period
+	idle time in seconds before a connection is automatically validated. Hibernate default: 0
+ -->
